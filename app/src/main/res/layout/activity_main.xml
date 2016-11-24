@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A5D6A7"
+    tools:context="com.example.swarupa.loginscreenr.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/text1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#795548"
+        android:layout_marginTop="14dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter UserName"
+        android:layout_marginTop="62dp"
+        android:layout_below="@+id/text1"
+        android:background="#EEEEEE"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter Passoword"
+        android:background="#EEEEEE"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="#9E9E9E"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView android:id="@+id/link_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Not a member? Sign up now"
+        android:gravity="center"
+        android:textSize="16dip"
+        android:textColor="#795548"
+        android:layout_below="@+id/btnSubmit"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="102dp" />
+
+</RelativeLayout>
